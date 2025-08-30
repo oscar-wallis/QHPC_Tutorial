@@ -8,3 +8,5 @@ To run this script you will need `Python`, `Rust`, `MPI`, the `QRMI` library (se
   * `QRMI` : `https://github.com/qiskit-community/qrmi/blob/main/INSTALL.md` + you will need to `pip install mpi4py` as well.
 
 The `run.sh` bash exports the `QRMI` variables, for more info check `https://github.com/qiskit-community/qrmi/blob/main/examples/qiskit_primitives/ibm/README.md`, then starts the `parallel_qpus.py` that loads these variables and runs the heterogenous workflow.
+
+For more info on how to create and access API Keys and Instance CRNs, please visit `https://quantum.cloud.ibm.com/docs/en/migration-guides/classic-iqp-to-cloud-iqp`.
